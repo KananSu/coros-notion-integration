@@ -1,0 +1,23 @@
+{
+  "name": "coros-notion-integration",
+  "version": "0.0.1",
+  "description": "sync coros sports record to notion",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json --module CommonJS --outDir ./dist/",
+    "start": "node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/md5": "^2.3.5",
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.7",
+    "axios": "^1.6.1",
+    "dotenv": "^16.3.1",
+    "md5": "^2.3.0"
+  }
+}
